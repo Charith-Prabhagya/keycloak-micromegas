@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+.login-pf {
+    background: none;
+}
+
+.login-pf body {
+    background: url("../img/background.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#kc-header-wrapper {
+    padding: 62px 10px 0px;
+}
+
+div.kc-logo-text {
+    background-image: url(../img/MicroMegas.png);
+    background-repeat: no-repeat;
+    height: 66px;
+    width: 275px;
+    margin: 0 auto;
+}
+
+.card-pf {
+    background: none;
+    border-top: none;
+    box-shadow: none;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#kc-registration {
+    color: #FDF4E3;
+    font-weight: 200;
+}
+
+#kc-form-options .checkbox {
+    color: #FDF4E3;
+}
+
+.checkbox label, .radio label {
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.login-pf-page  .login-pf-header {
+    color: #FDF4E3;
+}
+
+.login-pf a {
+    color: #FDF4E3;
+    font-size: 14px;
+    font-weight: 300 !important;
+}
+
+a:focus {
+    outline: none !important;
+}
+
+p.instruction {
+    color: #FDF4E3 !important;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+.pf-c-alert {
+    border-radius: 5px;
+}
+
+.pf-c-form-control:not(textarea) {
+    height: 40px;
+    border-radius: 4px;
+}
+
+.pf-c-form-control:hover, .pf-c-form-control:focus {
+    border-bottom-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+input.pf-c-form-control {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 100px;
+    padding: 0px 15px;
+    color: #FDF4E3;
+}
+
+.pf-c-form__label-text {
+    font-weight: 300;
+    color: #FDF4E3;
+    font-size: 14px;
+}
+
+.pf-c-dropdown__menu-item {
+    color: gray !important;
+}
+
+#kc-locale-dropdown {
+    display: inline-block;
+    border: solid 1px #005238;
+    padding: 3px 30px;
+    border-radius: 100px;
+    font-family: 'Poppins', sans-serif;
+    background: #005238;
+    font-size: 12px;
+}
+
+#kc-locale-dropdown a {
+    color: #FDF4E3;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pf-c-button.pf-m-block {
+    display: block;
+    width: auto;
+}
+
+#kc-info-wrapper {
+    color: #FDF4E3;
+}
+
+#kc-form-buttons {
+    margin-top: 20px;
+    text-align: -webkit-center;
+}
+
+.login-btn-wrapper {
+    text-align: -webkit-right !important;
+}
+
+.login-btn {
+    font-size: 22px !important;
+}
+
+.pf-c-button.pf-m-primary {
+    color: #000000;
+    background-color: #FDF4E3;
+    border-radius: 100px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input.pf-c-form-control {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 100px;
+}
+
+.pf-c-alert__title {
+    font-family: 'Poppins', sans-serif;
+}
+
+#kc-info-wrapper {
+    background: none;
+}
+
+@media (max-width: 767px) {
+    #kc-info-wrapper {
+        border-top: none;
+    }
+    .pf-c-form-control:not(textarea) {
+        height: 45px;
+    }
+    .control-field {
+        margin-bottom: 25px;
+    }
+    .kc-logo-text {
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .login-pf-page .login-pf-page-header {
+        margin-bottom: 0;
+    }
+
+    .center-body {
+        align-items: center;
+        display: flex;
+    }
+
+    .login-pf-page {
+        flex-grow: 1;
+        margin: 0 auto;
+    }
+
+    h2#kc-page-title {
+        font-size: 22px;
+    }
+
+    #kc-locale {
+        text-align: right;
+        z-index: 9999;
+        position: absolute;
+        width: 200px;
+        top: 20px;
+        right: 20px;
+    }
+}
