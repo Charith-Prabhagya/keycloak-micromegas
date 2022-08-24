@@ -149,7 +149,7 @@ input.pf-c-form-control {
 }
 
 input.pf-c-form-control {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5) !important;
     border: none;
     border-radius: 100px;
 }
