@@ -9,6 +9,12 @@
     background-size: cover;
     height: 100%;
     font-family: 'Poppins', sans-serif;
+    align-items: center;
+    display: flex;
+}
+
+.login-pf-page {
+    width: 100%;
 }
 
 #kc-header-wrapper {
@@ -19,7 +25,7 @@ div.kc-logo-text {
     background-image: url(../img/MicroMegas.png);
     background-repeat: no-repeat;
     height: 66px;
-    width: 275px;
+    width: 243px;
     margin: 0 auto;
 }
 
@@ -35,7 +41,7 @@ h1 {
 
 #kc-registration {
     color: #FDF4E3;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 #kc-form-options .checkbox {
@@ -163,6 +169,10 @@ input.pf-c-form-control {
 }
 
 @media (max-width: 767px) {
+    .login-pf body {
+        background: url("../img/background-mobile.png") no-repeat center right fixed !important;
+        background-size: cover !important;
+    }
     #kc-info-wrapper {
         border-top: none;
     }
@@ -172,8 +182,23 @@ input.pf-c-form-control {
     .control-field {
         margin-bottom: 25px;
     }
-    .kc-logo-text {
-        margin: 0 auto;
+    .login-pf-page {
+        padding: 150px 20px 10px 20px;
+    }
+    #kc-form {
+        padding-top: 20px;
+    }
+    #kc-registration {
+        color: #000000;
+        font-weight: 400;
+        margin-top: 40px;
+    }
+    .login-pf-page .login-pf-signup a {
+        color: #000000;
+    }
+    div.kc-logo-text {
+        background-size: 210px;
+        width: 210px;
     }
 }
 
